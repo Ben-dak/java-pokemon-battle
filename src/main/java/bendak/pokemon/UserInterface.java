@@ -42,7 +42,7 @@ public class UserInterface {                      // Handles all console input a
 
             // Enemy’s turn: simple AI uses first move
             Collections.shuffle(nidorinoMoves);
-            Move enemyMove = nidorinoMoves.get(); //TRYING TO RANDOMIZE MOVES
+            Move enemyMove = nidorinoMoves.get(0); // Get first move (now random after shuffle)
             battle.applyAttack(nidorino, gengar, enemyMove);// Enemy attacks back
         }
 
