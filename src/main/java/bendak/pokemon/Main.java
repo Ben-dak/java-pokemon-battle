@@ -7,7 +7,7 @@ public class Main {                               // Defines the Main class (ent
     }
     public static void optionMenu() {             // added this as a test for my understanding
 
-        new UserInterface().battleStart();              // Creates an instance and starts the loop to interact with
+        new UserInterface().start();
     }
 
 }
